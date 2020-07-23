@@ -1,0 +1,90 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    
+    height: 100vh;
+    
+    color: white;
+    
+    background-color: #444;
+}
+
+.calculator {
+    width: 235px;
+    height: 320px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.display {
+    height: 100%;
+    grid-column: span 4;
+    background-color: #0004;
+    font-size: 2em;
+    padding-right: 10px;
+    border-bottom: 1px solid #999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 48px 48px 48px 48px 48px;
+}
+
+.button {
+    background-color: #ccc;
+    font-size: 1.2em;
+    font-family: Oswald;
+    border: none;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    overflow: hidden;
+    outline: none;
+}
+
+button:active {
+    background-color: #ccca;
+}
+ 
+.button.ac {
+    grid-column: span 3;
+}
+
+.button.zero {
+    grid-column: span 2;
+}
+
+.button.operator {
+    background-color: #555;
+    color: #fff;
+    border-right: none;
+}
+
+.button.operator:active { 
+    background-color: #555a;
+}
+
+.button.equals {
+    background-color: #dc143c;
+    color: #fff;
+    border-right: none;
+    border-bottom: none;
+}
+
+.button.equals:active {
+    background-color: #dc143c99;
+}

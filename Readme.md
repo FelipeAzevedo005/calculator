@@ -1,0 +1,1 @@
+A simple calculator(MacOS-like), created to put my first steps in web development into practice.
