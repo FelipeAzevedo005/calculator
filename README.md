@@ -1,7 +1,7 @@
 # Calculator
 **A simple calculator(MacOS-like), created to put my first steps in web development into practice.**
 
-![calculator](./github/assets/Screenshot.png?raw=true)
+![calculator](./github/assets/calculator.gif?raw=true)
 
 Try it on [codepen.io](https://codepen.io/felipeazevedo005/full/KKdyLKG)!
 
