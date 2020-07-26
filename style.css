@@ -18,25 +18,34 @@ body {
 }
 
 .calculator {
-    width: 235px;
-    height: 320px;
-    border-radius: 5px;
-    border: 1px solid #999;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+    
+    width: 235px;
+    height: 320px;
+    
+    border-radius: 5px;
+    border: 1px solid #999;
+    
+    overflow: hidden;
 }
  
 .display {
-    height: 100%;
     grid-column: span 4;
-    background-color: #0004;
-    font-size: 2em;
-    padding-right: 10px;
-    border-bottom: 1px solid #999;
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
+    height: 100%;
+    
+    border-bottom: 1px solid #999;
+    
+    padding-right: 10px;
+    
+    font-size: 2em;
+    
+    background-color: #0004;
 }
 
 .buttons {
@@ -46,12 +55,15 @@ body {
 }
 
 .button {
-    background-color: #ccc;
-    font-size: 1.2em;
-    font-family: Oswald;
     border: none;
     border-bottom: 1px solid #999;
     border-right: 1px solid #999;
+    
+    font-size: 1.2em;
+    font-family: Oswald;
+    
+    background-color: #ccc;
+    
     overflow: hidden;
     outline: none;
 }
@@ -69,9 +81,11 @@ button:active {
 }
 
 .button.operator {
-    background-color: #555;
-    color: #fff;
     border-right: none;
+    
+    color: #fff;
+    
+    background-color: #555;
 }
 
 .button.operator:active { 
@@ -79,10 +93,12 @@ button:active {
 }
 
 .button.equals {
-    background-color: #dc143c;
     color: #fff;
+    
     border-right: none;
     border-bottom: none;
+    
+    background-color: #dc143c;
 }
 
 .button.equals:active {
